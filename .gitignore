@@ -1,0 +1,14 @@
+#*.*#
+*/bin
+*/obj
+
+Src/Modules/Web/bin
+Src/Modules/Web/obj
+Src/Modules/Infraestructure/bin
+Src/Modules/Infraestructure/obj
+Src/Modules/Domain/bin
+Src/Modules/Domain/obj
+Src/Modules/Api/bin
+Src/Modules/Api/obj
+Test/UnitTest/bin
+Test/UnitTest/obj
