@@ -15,3 +15,4 @@
 /home/kaede/programming/Todo/Src/Modules/Application/obj/Debug/net10.0/Applicat.44B5EDA2.Up2Date
 /home/kaede/programming/Todo/Src/Modules/Application/bin/Debug/net10.0/Api.dll
 /home/kaede/programming/Todo/Src/Modules/Application/bin/Debug/net10.0/Api.pdb
+/home/kaede/programming/Todo/Src/Modules/Application/obj/Debug/net10.0/Application.sourcelink.json

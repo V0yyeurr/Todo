@@ -7,9 +7,9 @@ namespace Todo.Infraestructure.Repository;
 
 public partial class TodoRepository : ITodoRepository{
     private readonly TodoContext _context;
-    private readonly ILogger _logger;
+    private readonly ILogger<TodoRepository> _logger;
 
-    public TodoRepository(TodoContext context, ILogger logger) {
+    public TodoRepository(TodoContext context, ILogger<TodoRepository> logger) {
         _logger = logger;
         _context = context;
     }

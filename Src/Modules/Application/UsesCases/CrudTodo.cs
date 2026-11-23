@@ -8,9 +8,9 @@ namespace Todo.Application.UsesCases.CrudTodo;
 public partial class CrudTodo : ICrudTodo
 {
     private readonly ITodoRepository _repository;
-    private readonly ILogger _logger;
+    private readonly ILogger<CrudTodo> _logger;
 
-    public CrudTodo(ITodoRepository repository, ILogger logger) {
+    public CrudTodo(ITodoRepository repository, ILogger<CrudTodo> logger) {
         _logger = logger;
         _repository = repository;
     }
